@@ -8,6 +8,7 @@ pandas: For data analysis , used https://www.kaggle.com/datasets/taeefnajib/used
 Scikit-Learn: To train a linear regression model  
 Numpy: To use log transformation on large price values in the dataset  
 Streamlit: Built a user-friendly GUI with AI and used streamlit community platform to host  
+Joblib: To save the model  
 
 # Additional changes  
 Used feature engineering to reduce RMSE,MSE,R(square) on the model  
