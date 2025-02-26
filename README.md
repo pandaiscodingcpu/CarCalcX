@@ -6,8 +6,7 @@ A linear regression model created using Sklearn, pandas and numpy to predict the
 
 pandas: For data analysis , used https://www.kaggle.com/datasets/taeefnajib/used-car-price-prediction-dataset from kaggle  
 Scikit-Learn: To train a linear regression model  
-Numpy: To use log transformation on large price values in the dataset  
-Streamlit: Built a user-friendly GUI with AI and used streamlit community platform to host  
+Numpy: To use log transformation on large price values in the dataset   
 Joblib: To save the model  
 
 # Additional changes  
