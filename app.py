@@ -6,7 +6,6 @@ import pickle
 # Load model and feature names
 with open("car_price_model.pkl", "rb") as file:
     model = pickle.load(file)
-
 with open("feature_names.pkl", "rb") as file:
     feature_names = pickle.load(file)
 
@@ -15,6 +14,7 @@ template_df = pd.DataFrame(np.zeros((1, len(feature_names))), columns=feature_na
 
 # Streamlit UI
 st.title("🚗 Car Price Prediction App")
+# How to use the model
 st.info("SOME KEY POINTS TO NOTE ABOUT THE MODEL\n1. This model completely does not take into account the current "
         "conditions and specs of cars.\n2. So, suppose you enter 1000 HP/ltr. it will definetly show the price but "
         "it can be misleading, so kindly use the current specs\n3. Below are given some current specs of the car."
