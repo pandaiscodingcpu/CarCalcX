@@ -24,8 +24,12 @@ RMSE : 0.44
 R² Score : 0.7306    
 
 # STEPS TO USE THE MODEL  
-STEP 1: Download the dataset
-STEP 2: Download all the reuqired libraries
+STEP 1: Download the dataset  
+
+STEP 2: Download all the reuqired libraries  
+
 STEP 3: Run the two files 1. data_gathering.ipynb and 2. final_dataset.ipynb in jupyter notebook  
+
 STEP 4: using app.py type the command in terminal: streamlit run app.py  
+
 STEP 5: You will see the web interface follow further commnands to use the model.  
