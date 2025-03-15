@@ -1,8 +1,5 @@
-jupyter notebook
 scikit-learn
 streamlit
 pandas
 numpy
 pickle
-
-python version 3.10 or above. (might run on older versions but for easy execution it is recommended to use python 3.10 or above)
